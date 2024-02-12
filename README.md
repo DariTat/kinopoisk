@@ -1,8 +1,14 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## Инструкция по запуску 
+1. Установка
+   `npm install`
+2. Запуск
+   `npm run dev`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Структура 
+
+1. MainPage.jsx - основная страница, где отображаются Премьеры, при клике на иконку осуществляется переход на страницу фильма/сериала/шоу.
+1. TopFilmsPage.jsx - страница с топами и различными коллекциями. Есть фильтрация по типам. При клике на иконку осуществляется переход на страницу фильма/сериала/шоу.
+1. FilmsPage.jsx - страница с фильмами. Получение фильмов по различным фильтрам: тип, жанр, страна, сортировка, поиск фильма по ключевому слову. Фильтрация работает при клике на кнопку "Показать".
+1. NewsPage.jsx - страница с новостями. При клике на новость отрывается описание.
